@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/toygames/toygames.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/toygames/toygames.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div class="WR">
+  <header class="H"><h1>Сайт TOYGAMES.RU скачай торрент игр!</h1></header>
+  
+  <article class="M">
+    <div class="TXTdiv">  
+	<h2>Видео из FPS шутеров!</h2> 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/zSEiG5nU8R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div> </article>
+  
+  <aside class="block L">
+  <div class="Ldiv">
+ <a href="index.html"> HOME - ГЛАВНАЯ</a>
+  </div>
+  <div class="Ldiv">
+  <a href="sys.html">Системные требования</a>
+  </div>
+ <div class="Ldiv">
+ <a href="download.html">СКАЧАТЬ ИГРЫ</a>
+ </div>
+ <div class="Ldiv">
+ <a href="torrent.html">СКАЧАТЬ ТОРРЕНТ</a>
+ </div>
+ <div class="Ldiv">
+ <a href="galery.html">ГАЛЕРЕЯ ИГР</a>
+ </div>
+ <div class="Ldiv">
+ <a href="video.html">Видео из ИГР</a>
+ </div>
+ <div class="Ldiv">
+ <a href="torrenthelp.html">КАК СКАЧИВАТЬ?</a>
+ </div>
+  <div class="Ltdiv"><h3>новые торренты</h3>
+ <br>
+  </div>
+  </aside>
+  <aside class="block R"><h3>Скриншоты игр</h3>
+  <div class="Ltdiv"> 
+     
+   <a href="galery.html"> <img height="150" src="img\photo\screen_images\min\screenshot632.jpg"></a>  <br>
+  </aside>
+  <footer class="F">Скачай шутер от www.toygames.ru без регистрации и подписки!</footer>
+</div>
