@@ -2,17 +2,21 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Шутеры от www.toygames.ru без регистрации и подписки!</title>
-<link href="flexbox.css" rel="stylesheet" media="all">
+  <title>Посмотреть видео и картинки!</title>
+    <link href="flexbox.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/gallery.js"></script>
+	<script src="js/dialog.js"></script>
  </head>
- <body>
+ <body onload="gallery()">
 <div class="WR">
   <header class="H"><h1>Сайт TOYGAMES.RU скачай торрент игр!</h1></header>
   
   <article class="M">
     <div class="TXTdiv">  
-	<h2>Видео из FPS шутеров!</h2> 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/zSEiG5nU8R0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h2>Видео и картинки шутеров!</h2> 
+ <?html  include("screenshot.html"); 
+ ?>
 	</div> </article>
   
   <aside class="block L">
@@ -38,13 +42,12 @@
  <a href="torrenthelp.html">КАК СКАЧИВАТЬ?</a>
  </div>
   <div class="Ltdiv"><h3>новые торренты</h3>
- <br>
+   <?html include("new.html"); ?><br>
   </div>
   </aside>
   <aside class="block R"><h3>Скриншоты игр</h3>
   <div class="Ltdiv"> 
-     
-   <a href="galery.html"> <img height="150" src="img\photo\screen_images\min\screenshot632.jpg"></a>  <br>
+     <?html include("screenshotmin.html"); ?> <br>
   </aside>
   <footer class="F">Скачай шутер от www.toygames.ru без регистрации и подписки!</footer>
 </div>
